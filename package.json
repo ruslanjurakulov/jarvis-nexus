@@ -1,0 +1,11 @@
+{
+  "name": "jarvis-nexus",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check src/app.js && node --check src/orb3d.js && node --check src/handTracker.js && node --check server.mjs"
+  }
+}
